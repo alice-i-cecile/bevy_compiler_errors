@@ -33,9 +33,6 @@ struct B;
 #[derive(Component)]
 struct C;
 
-// The user forget to make this a component
-struct X;
-
 // Resources are global singletons
 // that are accessible through the ECS
 #[derive(Debug)]
