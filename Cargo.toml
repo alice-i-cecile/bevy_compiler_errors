@@ -1,0 +1,9 @@
+[package]
+name = "bevy_compiler_errors"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = {git = "https://github.com/bevyengine/bevy/", rev = "07ed1d053e7946a116ce3eef273fc93dd246f49d"}
